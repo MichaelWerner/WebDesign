@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+  font-size: 15px;
+}
+
+.container {
+  width: 95%;
+  margin: 0.2% auto 0 auto;
+}
+
+.column-left, .column-middle, .column-right {
+  float: left;
+}
+
+.column-left {
+  background-color: rgb(255, 0, 0);
+  width:33%;
+}
+
+.column-middle {
+  background-color: rgb(0, 255, 0);
+  width:33%;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+}
+
+.column-right {
+  background-color: rgb(255, 255, 0);
+  width:33%;
+}
+
+h1 {
+  font-size: 25px;
+  color: rgb(0,0,255);
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
